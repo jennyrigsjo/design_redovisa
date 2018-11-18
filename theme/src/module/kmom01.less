@@ -1,0 +1,207 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+ /* Hide submenu, leave this to kmom02 */
+ .rm-desktop ul {
+     display: none;
+ }
+
+ /* Hide responsive/mobile menu, leave this to kmom02 */
+ .rm-navbar-max {
+     display: none;
+ }
+
+/************************************!
+           Modules
+*************************************/
+
+/* Header column 1 */
+
+.region-header-col-1 {
+    float: left;
+}
+
+.site-logo-text a {
+    font-family: 'Palatino Linotype', 'Palatino', 'Serif';
+    font-size: 3em;
+    text-decoration: none;
+    color: #000000;
+    text-shadow: 4px 4px 4px #a9a9a9;
+}
+
+/* Header column 2 */
+
+.region-header-col-2 {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.region-header-col-2 a {
+    display: inline-block;
+    font-size: 1.3em;
+    font-family: "Lucida Sans Unicode", "Century Gothic", "Sans-serif";
+    text-decoration: none;
+    color: #000000;
+}
+
+.rm-navbar {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.rm-desktop {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Flash image */
+
+.region-flash {
+    margin-bottom: 20px;
+}
+
+.region-flash img {
+    width: 100%;
+    height: 150px;
+}
+
+/* Breadcrumb navigation */
+
+.breadcrumb-list {
+    margin-left: 15px;
+}
+
+.breadcrumb-list li {
+    display: inline-block;
+}
+
+.breadcrumb-list li~li:before {
+    content: ' > '
+}
+
+.breadcrumb-list a {
+    font-family: "Arial", "Sans-serif";
+    font-size: 1em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.breadcrumb-list a:hover {
+    text-decoration: underline;
+}
+
+/* Link styles (main and sidebars) */
+
+.outer-wrap-main a {
+    font-family: "Arial", "Sans-serif";
+    font-size: 1em;
+    text-decoration: none;
+    color: #000080; /* Navy */
+}
+
+.outer-wrap-main a:hover {
+    text-decoration: underline;
+    color: #8B008B; /* DarkMagenta */
+}
+
+/* Blocks */
+
+.block {
+    margin-bottom: 20px;
+}
+
+/* Tables of content */
+
+.toc li {
+    margin-bottom: 10px;
+}
+
+.toc li.selected a {
+    font-weight: bold;
+}
+
+.toc .section-header a {
+    text-transform: uppercase;
+}
+
+.toc .level-1,
+.toc .level-2 {
+    margin-left: 10px;
+}
+
+/* Previous and next links */
+
+.next-previous {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.next-previous .previous,
+.next-previous .next {
+    display: inline-block;
+}
+
+.next-previous .previous {
+    margin-right: 15px;
+}
+
+/* Figures */
+
+.me-image {
+    width: 300px;
+    margin-left: 15px;
+}
+
+.me-image img,
+.me-image figcaption {
+    width: 100%;
+}
+
+.right {
+    float: right;
+}
+
+.about-image {
+    width: 700px;
+}
+
+.about-image img,
+.about-image figcaption {
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+/* Author byline */
+
+.author-byline {
+    display: flex;
+    width: 100%;
+    border: 1px solid #9e1225;
+}
+
+.author-byline a {
+    display: inline;
+}
+
+.author-byline figure,
+.author-byline p {
+    padding: 10px;
+}
+
+.author-byline figcaption {
+    font-size: 0.9em;
+}
+
+.site-footer {
+    text-align: center;
+    font-size: 1.3em;
+}

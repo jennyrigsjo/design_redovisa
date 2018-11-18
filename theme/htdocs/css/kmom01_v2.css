@@ -1,0 +1,305 @@
+/*!
+ * LESS version of the stylesheet for kmom01.
+ *
+ * This stylesheet is for the course 'design' and kmom01. It contains the same
+ * code as <i>kmom01.css</i>, but in modularised form.
+ *
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+article {
+  min-height: 600px;
+}
+blockquote {
+  padding-left: 30px;
+  border-left: 2px solid #191970;
+  /* Midnight Blue */
+}
+code {
+  font-size: 1em;
+  font-family: "Courier New", "monospace";
+}
+fieldset {
+  padding: 15px;
+}
+figcaption {
+  font-style: italic;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Century Gothic", "Trebuchet MS", "Tahoma", "Sans-serif";
+}
+h1 {
+  font-size: 2.7em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+legend {
+  font-family: "Arial", "Sans-serif";
+  font-size: 1em;
+}
+p {
+  font-family: "Arial", "Sans-serif";
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.wrap-all {
+  width: 100%;
+  height: 100%;
+}
+.outer-wrap,
+.inner-wrap,
+.row,
+.region-header,
+.region-flash,
+.region-footer {
+  width: 100%;
+}
+.site-logo {
+  display: none;
+}
+.row {
+  display: flex;
+}
+.region-breadcrumb {
+  margin-bottom: 30px;
+}
+.region-main {
+  width: 70%;
+  min-height: 600px;
+  margin: 0 auto;
+}
+.region-sidebar-left {
+  margin-right: 50px;
+  margin-left: 15px;
+}
+.region-sidebar-right {
+  width: 155px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 15px;
+}
+.region-footer {
+  min-height: 300px;
+  padding-top: 20px;
+  border-top: 1px solid black;
+  margin-top: 15px;
+  background-color: #191970;
+  /* Midnight Blue */
+  color: #ffffff;
+}
+.footer-column-wrapper {
+  width: 80%;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-column {
+  width: 30%;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+/************************************!
+           Modules
+*************************************/
+/* Header column 1 */
+.region-header-col-1 {
+  float: left;
+}
+.site-logo-text a {
+  font-family: 'Palatino Linotype', 'Palatino', 'Serif';
+  font-size: 3em;
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 4px 4px 4px #a9a9a9;
+}
+/* Header column 2 */
+.region-header-col-2 {
+  width: 80%;
+  margin: 20px auto;
+}
+.region-header-col-2 a {
+  display: inline-block;
+  font-size: 1.3em;
+  font-family: "Lucida Sans Unicode", "Century Gothic", "Sans-serif";
+  text-decoration: none;
+  color: #000000;
+}
+.rm-navbar {
+  width: 50%;
+  margin: 0 auto;
+}
+.rm-desktop {
+  display: flex;
+  justify-content: space-between;
+}
+/* Flash image */
+.region-flash {
+  margin-bottom: 20px;
+}
+.region-flash img {
+  width: 100%;
+  height: 150px;
+}
+/* Breadcrumb navigation */
+.breadcrumb-list {
+  margin-left: 15px;
+}
+.breadcrumb-list li {
+  display: inline-block;
+}
+.breadcrumb-list li ~ li:before {
+  content: ' > ';
+}
+.breadcrumb-list a {
+  font-family: "Arial", "Sans-serif";
+  font-size: 1em;
+  text-decoration: none;
+  color: #000000;
+}
+.breadcrumb-list a:hover {
+  text-decoration: underline;
+}
+/* Link styles (main and sidebars) */
+.outer-wrap-main a {
+  font-family: "Arial", "Sans-serif";
+  font-size: 1em;
+  text-decoration: none;
+  color: #000080;
+  /* Navy */
+}
+.outer-wrap-main a:hover {
+  text-decoration: underline;
+  color: #8B008B;
+  /* DarkMagenta */
+}
+/* Blocks */
+.block {
+  margin-bottom: 20px;
+}
+/* Tables of content */
+.toc li {
+  margin-bottom: 10px;
+}
+.toc li.selected a {
+  font-weight: bold;
+}
+.toc .section-header a {
+  text-transform: uppercase;
+}
+.toc .level-1,
+.toc .level-2 {
+  margin-left: 10px;
+}
+/* Previous and next links */
+.next-previous {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+.next-previous .previous,
+.next-previous .next {
+  display: inline-block;
+}
+.next-previous .previous {
+  margin-right: 15px;
+}
+/* Figures */
+.me-image {
+  width: 300px;
+  margin-left: 15px;
+}
+.me-image img,
+.me-image figcaption {
+  width: 100%;
+}
+.right {
+  float: right;
+}
+.about-image {
+  width: 700px;
+}
+.about-image img,
+.about-image figcaption {
+  width: 100%;
+}
+.left {
+  float: left;
+}
+/* Author byline */
+.author-byline {
+  display: flex;
+  width: 100%;
+  border: 1px solid #9e1225;
+}
+.author-byline a {
+  display: inline;
+}
+.author-byline figure,
+.author-byline p {
+  padding: 10px;
+}
+.author-byline figcaption {
+  font-size: 0.9em;
+}
+.site-footer {
+  text-align: center;
+  font-size: 1.3em;
+}
