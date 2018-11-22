@@ -1,23 +1,28 @@
 /**
- * Style for responsive menu
+ * Media queries to switch between desktop and mobile menu
  */
 
 
  /**
-  * Example on media queries
+  * Navbar
   */
  @media screen and (max-width: 680px) {
      .rm-small {
          display: block;
      }
-     
+
      .rm-desktop {
-         display: none;
+         display: none; /* Hide desktop menu */
      }
  }
 
- @media screen and (min-width: 680px) {
-     .rm-small {
-         display: none;
+ @media screen and (min-width: 681px) {
+
+     // .rm-small {
+     //     display: none;
+     // }
+
+     .rm-navbar-max {
+         display: none; /* Hide mobile menu */
      }
  }
