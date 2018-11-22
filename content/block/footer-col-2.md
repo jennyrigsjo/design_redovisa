@@ -1,3 +1,5 @@
-#### Footer col 2
+#### Blekinge Tekniska Högskola
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+* [Om kursen Teknisk webbdesign och användbarhet](https://dbwebb.se/kurser/design-v2)
+* [Om kurspaktet Webbprograrmmering](https://www.bth.se/kurspaket/KP653/20182/)
+* [Om Blekinge Tekniska Högskola](https://www.bth.se/)

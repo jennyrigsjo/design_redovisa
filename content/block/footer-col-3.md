@@ -1,3 +1,7 @@
-#### Footer col 3
+#### Övrigt
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Säg hej till Jenny:
+
+[<i class="fab fa-facebook-square"></i>](https://www.facebook.com/JennyRigsjo)
+[<i class="fab fa-linkedin"></i>](https://www.linkedin.com/in/jennyrigsjo/)
+[<i class="fab fa-github-square"></i>](https://github.com/jennyrigsjo)
