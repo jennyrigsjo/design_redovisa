@@ -2,8 +2,113 @@
  * Layout for responsive style through media queries.
  */
 
-@media screen and (max-width: 1500px) {
-    .site-logo {
-        display: none;
+
+
+/**
+* Header + navbar
+*/
+@media screen and (max-width: 680px) {
+
+    .region-header-col-1 {
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 }
+
+ @media screen and (min-width: 681px) and (max-width: 960px) {
+
+    .region-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .region-header-col-1 {
+        width: 40%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .site-logo-text {
+        display: block;
+        text-align: center;
+    }
+
+    .region-header-col-2 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+   }
+
+ }
+
+
+
+ /**
+  * Main content
+  */
+ @media screen and (max-width: 680px) {
+
+     .row {
+         width: 98%;
+         margin: 0 auto;
+         flex-direction: column;
+     }
+
+     .breadcrumb-list {
+         margin-left: 0;
+     }
+
+     .breadcrumb-list ul {
+         padding-inline-start: 0;
+     }
+
+     .region-main,
+     .region-main.has-sidebar,
+     .region-sidebar-left,
+     .region-sidebar-right {
+         width: 100%;
+         margin: 0;
+     }
+
+     .me-image,
+     .about-image,
+     .me-image img,
+     .about-image img {
+         margin-inline-start: 0;
+         margin-inline-end: 0;
+         width: 100%;
+     }
+
+     .toc {
+         display: flex;
+         flex-wrap: wrap;
+         padding-inline-start: 0;
+     }
+
+     .toc .level-0,
+     .toc .level-1,
+     .toc .level-2,
+     .toc .section-header {
+         margin-left: 0;
+         margin-right: 10px;
+     }
+
+ }
+
+
+
+ /**
+  * Footer
+  */
+ @media screen and (max-width: 680px) {
+
+     .columns {
+         flex-direction: column;
+     }
+
+     .column {
+         width: 100%;
+     }
+ }
