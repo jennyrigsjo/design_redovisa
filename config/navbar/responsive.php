@@ -13,23 +13,23 @@ return [
         [
             "text" => "Hem",
             "url" => "",
-            "title" => "Första sidan, börja här.",
+            "title" => "Första sidan, börja här",
         ],
         [
             "text" => "Redovisning",
             "url" => "redovisning",
-            "title" => "Redovisningstexter från kursmomenten.",
+            "title" => "Redovisningstexter från kursmomenten",
             "submenu" => [
                 "items" => [
                     [
                         "text" => "Kmom01",
                         "url" => "redovisning/kmom01",
-                        "title" => "Redovisning för kmom01.",
+                        "title" => "Redovisning för kmom01",
                     ],
                     [
                         "text" => "Kmom02",
                         "url" => "redovisning/kmom02",
-                        "title" => "Redovisning för kmom02.",
+                        "title" => "Redovisning för kmom02",
                     ],
                 ],
             ],
@@ -37,21 +37,21 @@ return [
         [
             "text" => "Om",
             "url" => "om",
-            "title" => "Om denna webbplats.",
+            "title" => "Om denna webbplats",
         ],
         [
             "text" => "Styleväljare",
             "url" => "style",
-            "title" => "Välj stylesheet.",
+            "title" => "Välj stylesheet",
         ],
         [
             "text" => "Verktyg",
             "url" => "verktyg",
-            "title" => "Verktyg och möjligheter för utveckling.",
+            "title" => "Verktyg och möjligheter för utveckling",
         ],
         [
-            "text" => "Test",
-            "url" => "test",
+            "text" => "Testa",
+            "url" => "testa",
             "title" => "Testa Markdownkonstruktioner",
         ]
     ],
