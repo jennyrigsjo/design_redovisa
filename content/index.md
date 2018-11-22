@@ -17,7 +17,7 @@ Om mig
 
 Hejsan!
 
-Mitt namn är Jenny och jag är student på kursen <i>design</i> vid Blekinge Tekniska Högskola.
+Mitt namn är Jenny och jag är student på kursen Teknisk webbdesign och användbarhet, a.k.a. *design*, vid Blekinge Tekniska Högskola.
 
 Jag har tidigare läst kurspaketet Webbutveckling och programmering och ser nu fram emot att få vidareutveckla mina kunskaper med lite serverprogrammering.
 
