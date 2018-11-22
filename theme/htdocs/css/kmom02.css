@@ -4319,26 +4319,28 @@ template {
 /**
  * Base styles to affect HTML elements on a general scale.
  */
-/**
- * Base style to affect HTML elements on a general scale.
- */
-* {
-  margin: 0;
-  padding: 0;
-}
+/************************************!
+           Base styles
+*************************************/
+/* Variables */
+/* All elements, html/body */
 html,
 body {
   width: 100%;
   height: 100%;
   background-color: #fff;
 }
+/* Elements by letter */
 article {
+  width: 100%;
   min-height: 600px;
 }
 blockquote {
-  padding-left: 30px;
+  padding-left: 20px;
   border-left: 2px solid #191970;
   /* Midnight Blue */
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 code {
   font-size: 1em;
@@ -4347,8 +4349,13 @@ code {
 fieldset {
   padding: 15px;
 }
+figure {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
 figcaption {
   font-style: italic;
+  width: 100%;
 }
 h1,
 h2,
@@ -4357,23 +4364,26 @@ h4 {
   font-family: "Century Gothic", "Trebuchet MS", "Tahoma", "Sans-serif";
 }
 h1 {
-  font-size: 2.7em;
+  font-size: 2.3em;
   padding-bottom: 5px;
   border-bottom: 1px solid black;
   margin-bottom: 30px;
 }
 h2 {
-  font-size: 2em;
+  font-size: 1.9em;
   margin-bottom: 10px;
 }
 h3 {
-  font-size: 1.7em;
+  font-size: 1.6em;
   margin-bottom: 10px;
 }
 h4 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: bold;
   margin-bottom: 10px;
+}
+img {
+  width: 100%;
 }
 legend {
   font-family: "Arial", "Sans-serif";
@@ -4391,19 +4401,14 @@ ul {
  * Layout styles for general structure of header, navbar, main, footer
  * and other regions of the page, including route specific styles.
  */
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
+/************************************!
+            Layout styles
+ *************************************/
+/* All regions */
 .wrap-all {
   width: 100%;
   height: 100%;
+  overflow: auto;
 }
 .outer-wrap,
 .inner-wrap,
@@ -4413,38 +4418,88 @@ ul {
 .region-footer {
   width: 100%;
 }
-.site-logo {
-  display: none;
-}
 .row {
   display: flex;
 }
+/* Header logo + text */
+.region-header-col-1 {
+  float: left;
+  margin-top: 20px;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+/* Header navbar */
+.region-header-col-2 {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rm-navbar {
+  width: 100%;
+}
+/* Flash image */
+.inner-wrap-flash {
+  border-top: 1px solid #151112;
+  border-bottom: 1px solid #151112;
+}
+.region-flash {
+  width: 100%;
+  height: 150px;
+  margin: 4px 0;
+}
+/* Breadcrumb navigation */
 .region-breadcrumb {
   margin-bottom: 30px;
 }
+.breadcrumb-list {
+  margin-left: 15px;
+}
+/* Main */
 .region-main {
-  width: 70%;
+  width: 80%;
   min-height: 600px;
   margin: 0 auto;
 }
-.region-sidebar-left {
-  margin-right: 50px;
-  margin-left: 15px;
+.region-main.has-sidebar-right {
+  width: 65%;
+  margin: 0 2.5%;
 }
+.region-main.has-sidebar-left {
+  width: 70%;
+  margin: 0 2.5%;
+}
+/* Main siderbars/blocks */
 .region-sidebar-right {
-  width: 155px;
+  width: 25%;
   margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 15px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
 }
+.region-sidebar-left {
+  width: 20%;
+  margin-left: 1%;
+}
+.block {
+  margin-bottom: 20px;
+}
+.author-byline {
+  display: flex;
+  width: 100%;
+}
+/* Main previous/next links */
+.next-previous {
+  margin-bottom: 30px;
+}
+/* Footer */
 .region-footer {
   min-height: 300px;
-  padding-top: 20px;
-  border-top: 1px solid black;
-  margin-top: 15px;
-  background-color: #191970;
-  /* Midnight Blue */
-  color: #ffffff;
 }
 .footer-column-wrapper {
   width: 80%;
@@ -4462,27 +4517,11 @@ ul {
 /**
  * Internal, self contained modules, saved in the directory 'module/'.
  */
-/*!
- * Stylesheet for design kmom01.
- *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
- */
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
 /* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
 /************************************!
            Modules
 *************************************/
-/* Header column 1 */
-.region-header-col-1 {
-  float: left;
-}
+/* Header logo */
 .site-logo-text a {
   font-family: 'Palatino Linotype', 'Palatino', 'Serif';
   font-size: 3em;
@@ -4490,11 +4529,7 @@ ul {
   color: #000000;
   text-shadow: 4px 4px 4px #a9a9a9;
 }
-/* Header column 2 */
-.region-header-col-2 {
-  width: 80%;
-  margin: 20px auto;
-}
+/* Header navbar */
 .region-header-col-2 a {
   display: inline-block;
   font-size: 1.3em;
@@ -4502,26 +4537,18 @@ ul {
   text-decoration: none;
   color: #000000;
 }
-.rm-navbar {
-  width: 50%;
-  margin: 0 auto;
-}
 .rm-desktop {
   display: flex;
   justify-content: space-between;
 }
 /* Flash image */
 .region-flash {
-  margin-bottom: 20px;
-}
-.region-flash img {
-  width: 100%;
-  height: 150px;
+  background-image: url("../img/theme/code.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
 }
 /* Breadcrumb navigation */
-.breadcrumb-list {
-  margin-left: 15px;
-}
 .breadcrumb-list li {
   display: inline-block;
 }
@@ -4537,7 +4564,7 @@ ul {
 .breadcrumb-list a:hover {
   text-decoration: underline;
 }
-/* Link styles (main and sidebars) */
+/* Main links */
 .outer-wrap-main a {
   font-family: "Arial", "Sans-serif";
   font-size: 1em;
@@ -4550,11 +4577,7 @@ ul {
   color: #8B008B;
   /* DarkMagenta */
 }
-/* Blocks */
-.block {
-  margin-bottom: 20px;
-}
-/* Tables of content */
+/* Main tables of content */
 .toc li {
   margin-bottom: 10px;
 }
@@ -4568,12 +4591,11 @@ ul {
 .toc .level-2 {
   margin-left: 10px;
 }
-/* Previous and next links */
+/* Main previous/next links */
 .next-previous {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
-  margin-bottom: 30px;
 }
 .next-previous .previous,
 .next-previous .next {
@@ -4582,14 +4604,10 @@ ul {
 .next-previous .previous {
   margin-right: 15px;
 }
-/* Figures */
+/* Main figures */
 .me-image {
   width: 300px;
   margin-left: 15px;
-}
-.me-image img,
-.me-image figcaption {
-  width: 100%;
 }
 .right {
   float: right;
@@ -4597,21 +4615,19 @@ ul {
 .about-image {
   width: 700px;
 }
-.about-image img,
-.about-image figcaption {
-  width: 100%;
-}
 .left {
   float: left;
 }
 /* Author byline */
 .author-byline {
-  display: flex;
-  width: 100%;
-  border: 1px solid #9e1225;
+  box-shadow: 3px 2px 5px #e51a53;
 }
 .author-byline a {
   display: inline;
+}
+.author-byline img {
+  width: 80px;
+  max-width: 80px;
 }
 .author-byline figure,
 .author-byline p {
@@ -4620,29 +4636,45 @@ ul {
 .author-byline figcaption {
   font-size: 0.9em;
 }
+/* Footer */
+.region-footer {
+  border-top: 2px solid #e51a53;
+  background-color: #151112;
+  color: #ffffff;
+}
+.region-footer ul {
+  padding-inline-start: 0;
+  list-style-type: circle;
+}
+.region-footer li {
+  margin-left: 1em;
+  margin-bottom: 10px;
+}
+.region-footer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Arial", "Sans-serif";
+  font-size: 0.8em;
+}
+.region-footer a:hover {
+  text-decoration: underline;
+}
+.region-footer .fab.fa-facebook-square,
+.region-footer .fab.fa-linkedin,
+.region-footer .fab.fa-github-square {
+  font-size: 2em;
+  margin-right: 15px;
+}
+.footer-column-wrapper {
+  border-bottom: 1px solid #e51a53;
+}
 .site-footer {
   text-align: center;
-  font-size: 1.3em;
-}
-/* Show submenu */
-.rm-desktop ul {
-  display: block;
-}
-/* Show responsive/mobile menu */
-.rm-navbar-max {
-  display: block;
+  font-size: 1.1em;
 }
 /**
- * Responsive styles
+ * Responsive menu
  */
-/**
- * Layout for responsive style through media queries.
- */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
 /**
  * Style for responsive menu
  */
@@ -4869,10 +4901,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Style for responsive menu
+ * Media queries to switch between desktop and mobile menu
  */
 /**
-  * Example on media queries
+  * Navbar
   */
 @media screen and (max-width: 680px) {
   .rm-small {
@@ -4880,11 +4912,115 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   }
   .rm-desktop {
     display: none;
+    /* Hide desktop menu */
   }
 }
-@media screen and (min-width: 680px) {
-  .rm-small {
+@media screen and (min-width: 681px) {
+  .rm-navbar-max {
     display: none;
+    /* Hide mobile menu */
+  }
+}
+/**
+ * Miscellaneous responsive layout styles
+ */
+/**
+ * Base for responsive style through media queries.
+ */
+/**
+ * Base styles
+ */
+@media screen and (max-width: 680px) {
+  article {
+    min-height: 200px;
+  }
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+/**
+* Header + navbar
+*/
+@media screen and (max-width: 680px) {
+  .region-header-col-1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 681px) and (max-width: 960px) {
+  .region-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .region-header-col-1 {
+    width: 40%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-logo-text {
+    display: block;
+    text-align: center;
+  }
+  .region-header-col-2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/**
+  * Main content
+  */
+@media screen and (max-width: 680px) {
+  .row {
+    width: 98%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .breadcrumb-list {
+    margin-left: 0;
+  }
+  .breadcrumb-list ul {
+    padding-inline-start: 0;
+  }
+  .region-main,
+  .region-main.has-sidebar,
+  .region-sidebar-left,
+  .region-sidebar-right {
+    width: 100%;
+    margin: 0;
+  }
+  .me-image,
+  .about-image,
+  .me-image img,
+  .about-image img {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    width: 100%;
+  }
+  .toc {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+  }
+  .toc .level-0,
+  .toc .level-1,
+  .toc .level-2,
+  .toc .section-header {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+/**
+  * Footer
+  */
+@media screen and (max-width: 680px) {
+  .columns {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
   }
 }
 /**
@@ -4923,5 +5059,11 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   color: #111;
 }
 /**
- * My own settings, not currently in their own module.
+ * This section contains 'override styles', i.e. style rules needed to override
+ * some of the styles set in the responsive menu module. Not an ideal solution,
+ * but better than accidentlly breaking something by changing the code
+ * in the responsive menu module.
  */
+.rm-desktop li:hover > ul {
+  background-color: #fff;
+}
