@@ -1,4 +1,8 @@
 "use strict";
+// This javascript adds an event listener to the <img> element inside the div
+// with the class 'region-flash'. If the image fails to load, it sets
+// the image's css property 'display' to 'none' in order to avoid displaying
+// the 'missing image' icon which would otherwise appear.
 
 var elementExists = document.getElementsByClassName("region-flash").length > 0;
 
