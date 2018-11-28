@@ -1,0 +1,80 @@
+/*!
+ * LESS stylesheet for kmom03.
+ *
+ * This stylesheet is for the course 'design' and kmom03.
+ */
+
+
+
+ /**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * Base styles to affect HTML elements on a general scale.
+ */
+@import "base/base03.less";
+
+
+
+/**
+ * Layout styles for general structure of header, navbar, main, footer
+ * and other regions of the page, including route specific styles.
+ */
+@import "layout/layout03.less";
+
+
+
+/**
+ * Internal, self contained modules, saved in the directory 'module/'.
+ */
+@import "module/module03.less";
+
+
+
+/**
+ * Responsive menu
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+ * Miscellaneous responsive layout styles
+ */
+@import "base/responsive03.less";
+@import "layout/responsive03.less";
+
+
+
+/**
+ * Styles to highlight regions in the layout, useful for styling purposes.
+ * Add '?regions' to the current URI to see the layout of each region.
+ */
+@import "layout/regions.less";
+
+
+
+/**
+ * This section contains 'override styles', i.e. style rules needed to override
+ * some of the styles set in the responsive menu module. Not an ideal solution,
+ * but better than accidentlly breaking something by changing the code
+ * in the responsive menu module.
+ */
+
+ .rm-desktop li:hover>ul {
+    background-color: @bodyBgColor;
+}

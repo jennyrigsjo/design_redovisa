@@ -1,0 +1,271 @@
+/* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     display: none;
+// }
+
+/************************************!
+           Modules
+*************************************/
+
+/* Header logo */
+
+.site-logo-text a {
+    font-family: @logoFont;
+    font-size: 3em;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px #a9a9a9;
+}
+
+
+
+/* Header navbar */
+
+.region-header-col-2 a {
+    display: inline-block;
+    font-size: 1.3em;
+    font-family: @listFont;
+    text-decoration: none;
+}
+
+.rm-desktop {
+    display: flex;
+    justify-content: space-between;
+}
+
+// .rm-desktop ul {
+//     display: none; /* Hide submenu, leave this to kmom02 */
+// }
+
+
+
+/* Flash image */
+
+.inner-wrap-flash {
+    border-top: 1px solid @textColor;
+    border-bottom: 1px solid @textColor;
+}
+
+.region-flash {
+    background-image: url("../img/theme/code.jpg");
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+}
+
+
+
+/* Breadcrumb navigation */
+
+.breadcrumb-list li {
+    display: inline-block;
+}
+
+.breadcrumb-list li~li:before {
+    content: ' / '
+}
+
+.breadcrumb-list a {
+    font-family: @listFont;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.breadcrumb-list a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Main links */
+
+.outer-wrap-main p > a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #000080; /* Navy */
+}
+
+.outer-wrap-main p > a:hover {
+    text-decoration: underline;
+    color: #8B008B; /* DarkMagenta */
+}
+
+
+
+/* Main tables of content */
+
+.block.toc {
+    border: 1px solid @textColor;
+}
+
+.toc,
+.toc h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.toc,
+.toc li {
+    text-align: center;
+}
+
+.toc h4 {
+    background-color: @textColor;
+    color: @bodyBgColor;
+}
+
+.toc h4,
+.toc a {
+    font-family: @listFont;
+}
+
+.toc a {
+    display: block;
+    text-decoration: none;
+}
+
+.toc h4,
+.toc li a {
+    padding: 1em 0.5em;
+    border-bottom: 1px solid @textColor;
+}
+
+.toc:last-child {
+    border-bottom: none;
+}
+
+.toc li:hover,
+.toc li.selected {
+    background-color: @complementaryColor;
+}
+
+.toc li:hover > a {
+    text-decoration: none;
+}
+
+.toc .level-0,
+.toc .section-header {
+    text-transform: uppercase;
+}
+
+/* Main previous/next links */
+
+.next-previous {
+    font-family: @listFont;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.next-previous .previous,
+.next-previous .next {
+    display: inline-block;
+}
+
+.next-previous .previous {
+    margin-right: 15px;
+}
+
+.next-previous a {
+    text-decoration: none;
+}
+
+.next-previous a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Main figures */
+
+.me-image {
+    width: 300px;
+    margin-left: 15px;
+}
+
+.right {
+    float: right;
+}
+
+.about-image {
+    width: 700px;
+}
+
+.left {
+    float: left;
+}
+
+
+
+/* Author byline */
+
+.author-byline {
+    border-top: 1px solid @complementaryColor;
+    border-bottom: 1px solid @complementaryColor;
+}
+
+
+.author-byline a {
+    display: inline;
+}
+
+.author-byline img {
+    width: 80px;
+    max-width: 80px;
+}
+
+.author-byline figure,
+.author-byline p {
+    padding: 10px;
+}
+
+.author-byline figcaption {
+    font-size: 0.9em;
+}
+
+
+
+/* Footer */
+
+.region-footer {
+    border-top: 2px solid @complementaryColor;
+    background-color: @textColor;
+    color: @bodyBgColor;
+}
+
+.region-footer ul {
+    padding-inline-start: 0;
+    list-style-type: circle;
+}
+
+.region-footer li {
+    margin-left: 1em;
+    margin-bottom: 10px;
+}
+
+.region-footer a {
+    text-decoration: none;
+    color: @bodyBgColor;
+    font-family: @listFont;
+    font-size: 0.8em;
+}
+
+.region-footer a:hover {
+    text-decoration: underline;
+}
+
+.region-footer .fab.fa-facebook-square,
+.region-footer .fab.fa-linkedin,
+.region-footer .fab.fa-github-square {
+    font-size: 2em;
+    margin-right: 15px;
+}
+
+.footer-column-wrapper {
+    border-bottom: 1px solid @bodyBgColor;
+}
+
+.site-footer {
+    text-align: center;
+    font-size: 1.1em;
+}

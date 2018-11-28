@@ -1,0 +1,147 @@
+/************************************!
+           Base styles
+*************************************/
+
+/* Variables */
+
+@bodyBgColor: #fff;
+@textColor: #333; //#151112
+@complementaryColor: #e51a53;
+@logoFont: 'Alcubierre';
+@headingFont: 'Geogia', 'serif';
+@paragraphFont: 'Gill Sans MT', 'Gill Sans', 'My Gill Sans', 'Sans-serif';
+@listFont: "Lucida Sans Unicode", "Century Gothic", "Sans-serif";
+
+
+
+/* All elements, html/body */
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+   background-color: @bodyBgColor;
+   color: @textColor;
+   font-size: 100%; //do not overwrite user settings in browser
+   line-height: 1.4;
+}
+
+@font-face {
+    font-family: 'Alcubierre';
+    src: url('fonts/alcubierre/Alcubierre.otf');
+}
+
+@font-face {
+    font-family: 'Stellar';
+    src: url('fonts/Stellar-FreeForPersonalUse/Stellar-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Fabrica';
+    src: url('fonts/Fabrica/Fabrica.otf');
+}
+
+@font-face {
+    font-family: 'Hanken-Light';
+    src: url('fonts/hanken/Hanken-Light.ttf');
+}
+
+@font-face {
+    font-family: 'PierSans';
+    src: url('fonts/PierSans-FreeForPersonalUse/PierSans-Regular.otf'),
+    url('fonts/Stellar-FreeForPersonalUse/PierSans-Italic.otf'),
+    url('fonts/Stellar-FreeForPersonalUse/PierSans-Bold.otf'),
+    url('fonts/Stellar-FreeForPersonalUse/PierSans-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: 'SkarpaLt';
+    src: url('fonts/agasilva_skarpalt/SkarpaLt.ttf');
+}
+
+/* Elements by letter */
+
+a {
+    color: @textColor;
+}
+
+article {
+    width: 100%;
+    min-height: 600px;
+}
+
+blockquote {
+   padding-left: 20px;
+   border-left: 2px solid @complementaryColor;
+   margin-inline-start: 0;
+   margin-inline-end: 0;
+}
+
+code {
+   font-size: 1em;
+   font-family: "Courier New", "monospace";
+
+}
+
+fieldset {
+   padding: 15px;
+}
+
+figure {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+figcaption {
+   font-style: italic;
+   width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   font-family: @headingFont;
+}
+
+h1 {
+   font-size: 2.3em;
+   padding-bottom: 5px;
+   border-bottom: 1px solid black;
+   margin-bottom: 30px;
+}
+
+h2 {
+   font-size: 1.9em;
+   margin-bottom: 10px;
+}
+
+h3 {
+   font-size: 1.6em;
+   margin-bottom: 10px;
+}
+
+h4 {
+   font-size: 1.2em;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+legend {
+   font-family: inherit;
+   font-size: 1em;
+}
+
+p {
+   font-family: @paragraphFont;
+   font-size: 1em; //should translate to 16px in most browsers
+   margin-bottom: 20px;
+}
+
+ul {
+   list-style-type: none;
+}

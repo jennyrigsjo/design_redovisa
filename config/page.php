@@ -24,7 +24,8 @@ return [
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
-                "js/hide-show-image.js"
+                "js/hide-show-image.js",
+                "js/hide-show-toc.js"
             ],
         ],
     ],
