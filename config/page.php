@@ -20,12 +20,13 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 //"css/dbwebb-se.min.css",
-                "css/kmom02.min.css",
+                // "css/kmom02.min.css",
+                "css/kmom03_grid.min.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
                 "js/hide-show-image.js",
-                "js/hide-show-toc.js"
+                //"js/hide-show-toc.js"
             ],
         ],
     ],

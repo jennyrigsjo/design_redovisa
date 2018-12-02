@@ -1,0 +1,103 @@
+/*!
+ * Grid stylesheet for kmom03.
+ *
+ * This stylesheet is for the course 'design' and kmom03. It is compiled using
+ * LESS and it has been styled using a vertical and a horizontal/typographic grid.
+ */
+
+
+
+ /**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+
+/**
+ * Base styles to affect HTML elements on a general scale.
+ */
+@import "base/base03_grid.less";
+
+
+
+/**
+ * Layout styles for general structure of header, navbar, main, footer
+ * and other regions of the page, including route specific styles.
+ */
+@import "layout/layout03_grid.less";
+
+
+
+/**
+ * Internal, self-contained modules, saved in the directory 'module/'.
+ */
+@import "module/module03_grid.less";
+
+
+
+/**
+ * Responsive base styles
+ */
+@import "base/responsive03_grid.less";
+
+
+
+/**
+ * Responsive layout styles
+ */
+@import "layout/responsive03_grid.less";
+
+
+
+/**
+ * Responsive menu
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+ * Styles to highlight regions in the layout, useful for styling purposes.
+ * Add '?regions' to the current URI to see the layout of each region.
+ */
+@import "layout/regions.less";
+
+
+
+/**
+ * This section contains 'override styles', i.e. style rules needed to override/
+ * make exceptions to other style rules set higher up.
+ */
+ .rm-desktop li:hover>ul {
+    background-color: @bodyBgColor;
+}
+
+h1 {
+    margin-bottom: 23px;
+}
