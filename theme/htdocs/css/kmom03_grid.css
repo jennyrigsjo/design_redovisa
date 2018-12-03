@@ -4684,8 +4684,8 @@ hr::after {
   background-color: #fff;
 }
 @font-face {
-  font-family: 'Alcubierre';
-  src: url('fonts/alcubierre/Alcubierre.otf');
+  font-family: 'Zelda';
+  src: url('fonts/zelda/ZELDARegular.otf');
 }
 /* Elements by letter */
 a {
@@ -4955,8 +4955,9 @@ ul {
 .site-logo-text a {
   display: flex;
   justify-content: center;
-  font-family: 'Alcubierre';
+  font-family: 'Zelda';
   font-size: 3em;
+  color: #e51a53;
   text-decoration: none;
   text-shadow: 4px 4px 4px #a9a9a9;
 }
