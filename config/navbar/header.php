@@ -57,6 +57,20 @@ return [
             "text" => "Testa",
             "url" => "testa",
             "title" => "Testa Markdownkonstruktioner",
+        ],
+        [
+            "text" => "Rapporter",
+            "url" => "rapport",
+            "title" => "Rapporter",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färg",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport för kmom04",
+                    ],
+                ]
+            ]
         ]
     ],
 ];

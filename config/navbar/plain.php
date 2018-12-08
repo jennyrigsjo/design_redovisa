@@ -37,6 +37,11 @@ return [
             "text" => "Testa",
             "url" => "testa",
             "title" => "Testa Markdownkonstruktioner",
+        ],
+        [
+            "text" => "Rapporter",
+            "url" => "rapport",
+            "title" => "Rapporter",
         ]
     ],
 ];
