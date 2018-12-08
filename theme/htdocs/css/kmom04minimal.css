@@ -1,8 +1,9 @@
 /*!
- * Base stylesheet for kmom04.
+ * Minimalistic stylesheet for kmom04.
  *
- * This stylesheet is for the course 'design' and kmom04. It serves as
- * the base theme from which the other stylesheets for this kmom are derived.
+ * This stylesheet is for the course 'design' and kmom04. It has a monochromatic
+ * (black and white) color scheme, simple styling and contains only
+ * sans-serif fonts.
  */
 /**
  * Normalize and reset the style.
@@ -4395,9 +4396,9 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #fff;
-  color: #333;
-  font: 16px/1.5 "sans-serif";
+  background-color: #fdfdfd;
+  color: #151112;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
@@ -4405,7 +4406,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4689,7 +4690,7 @@ hr::after {
 }
 /* Elements by letter */
 a {
-  color: #333;
+  color: #151112;
 }
 article {
   width: 100%;
@@ -4713,7 +4714,7 @@ ul {
 }
 blockquote {
   padding-left: 20px;
-  border-left: 2px solid #e51a53;
+  border-left: 2px solid #aeaeae;
   margin-bottom: 24px;
 }
 figcaption {
@@ -4974,9 +4975,9 @@ ul {
 .site-logo-text a {
   display: flex;
   justify-content: center;
-  font-family: 'Zelda';
+  font-family: 'Moon';
   font-size: 3em;
-  color: #e51a53;
+  color: #aeaeae;
   text-decoration: none;
   text-shadow: 4px 4px 4px #a9a9a9;
 }
@@ -4997,8 +4998,8 @@ ul {
 /* Flash image */
 .inner-wrap-flash {
   padding: 5px 0;
-  border-top: 1px solid #333;
-  border-bottom: 1px solid #333;
+  border-top: 1px solid #151112;
+  border-bottom: 1px solid #151112;
 }
 .region-flash {
   background-image: url("../img/theme/code.jpg");
@@ -5032,7 +5033,7 @@ ul {
 }
 /* Main tables of content */
 .block.toc {
-  border: 1px solid #333;
+  border: 1px solid #151112;
 }
 .toc,
 .toc h4 {
@@ -5043,8 +5044,8 @@ ul {
   text-align: center;
 }
 .toc h4 {
-  background-color: #333;
-  color: #fff;
+  background-color: #151112;
+  color: #fdfdfd;
 }
 .toc a {
   display: block;
@@ -5056,14 +5057,14 @@ ul {
   padding-right: 0.5em;
   padding-top: 24px;
   padding-bottom: 23px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #151112;
 }
 .toc:last-child {
   border-bottom: none;
 }
 .toc li:hover,
 .toc li.selected {
-  background-color: #e51a53;
+  background-color: #aeaeae;
 }
 .toc li:hover > a {
   text-decoration: none;
@@ -5116,8 +5117,8 @@ ul {
 /* Author byline */
 .author-byline {
   display: flex;
-  border-top: 1px solid #e51a53;
-  border-bottom: 1px solid #e51a53;
+  border-top: 1px solid #aeaeae;
+  border-bottom: 1px solid #aeaeae;
 }
 .author-byline a {
   display: inline;
@@ -5132,12 +5133,12 @@ ul {
 }
 /* Footer */
 .region-footer {
-  border-top: 2px solid #e51a53;
-  background-color: #333;
-  color: #fff;
+  border-top: 2px solid #aeaeae;
+  background-color: #151112;
+  color: #fdfdfd;
 }
 .region-footer h4 {
-  border-color: #fff;
+  border-color: #fdfdfd;
 }
 .region-footer ul {
   padding-inline-start: 0;
@@ -5149,7 +5150,7 @@ ul {
 }
 .region-footer a {
   text-decoration: none;
-  color: #fff;
+  color: #fdfdfd;
 }
 .region-footer a:hover {
   text-decoration: underline;
@@ -5161,7 +5162,7 @@ ul {
   margin-right: 15px;
 }
 .footer-column-wrapper {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #fdfdfd;
 }
 .site-footer {
   text-align: center;
@@ -5610,8 +5611,42 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * make exceptions to other style rules set higher up.
  */
 .rm-desktop li:hover > ul {
-  background-color: #fff;
+  background-color: #fdfdfd;
 }
 h1 {
   margin-bottom: 23px;
+}
+/* Minimalistic styles/settings */
+@font-face {
+  font-family: 'Moon';
+  src: url('fonts/moon/Moon2.0-Regular.otf');
+}
+.site-logo-text-icon img,
+.region-flash {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.site-logo-text a {
+  color: #151112;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: none;
+}
+.region-header-col-2 a {
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.outer-wrap-main p > a {
+  color: #0000ff;
+  /* Blue */
+}
+.outer-wrap-main p > a:hover {
+  color: #9f00c5;
+  /* Purple */
+}
+.region-sidebar-right .block {
+  background-color: transparent;
+}
+.region-sidebar-right h4 {
+  border-bottom: 1px solid #aeaeae;
 }

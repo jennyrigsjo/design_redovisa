@@ -1,8 +1,8 @@
 /*!
- * Grid stylesheet for kmom04.
+ * Base stylesheet for kmom04.
  *
- * This stylesheet is for the course 'design' and kmom04. It is compiled using
- * LESS and it has been styled using a vertical and a horizontal/typographic grid.
+ * This stylesheet is for the course 'design' and kmom04. It serves as
+ * the base theme from which the other stylesheets for this kmom are derived.
  */
 /**
  * Normalize and reset the style.

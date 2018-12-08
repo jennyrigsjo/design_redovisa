@@ -1,8 +1,9 @@
 /*!
- * Base stylesheet for kmom04.
+ * Minimalistic stylesheet for kmom04.
  *
- * This stylesheet is for the course 'design' and kmom04. It serves as
- * the base theme from which the other stylesheets for this kmom are derived.
+ * This stylesheet is for the course 'design' and kmom04. It has a monochromatic
+ * (black and white) color scheme, simple styling and contains only
+ * sans-serif fonts.
  */
 
 
@@ -100,4 +101,52 @@
 
 h1 {
     margin-bottom: 23px;
+}
+
+/* Minimalistic styles/settings */
+
+@bodyBgColor: #fdfdfd; //"off-white"
+@textColor: #151112; //very dark grey, same as flash image
+@complementaryColor: #aeaeae; // medium grey
+
+@logoFont: 'Moon';
+@fontFamilyHeadings: @fontFamilyCalibri;
+@fontFamilyBody: @fontFamilyHelveticaNeue;
+
+@font-face {
+    font-family: 'Moon';
+    src: url('fonts/moon/Moon2.0-Regular.otf');
+}
+
+.site-logo-text-icon img,
+.region-flash {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.site-logo-text a {
+    color: @textColor;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: none;
+}
+
+.region-header-col-2 a {
+    font-family: @fontFamilyCalibri;
+}
+
+.outer-wrap-main p > a {
+    color: #0000ff; /* Blue */
+}
+
+.outer-wrap-main p > a:hover {
+    color: #9f00c5; /* Purple */
+}
+
+.region-sidebar-right .block {
+    background-color: transparent;
+}
+
+.region-sidebar-right h4 {
+    border-bottom: 1px solid @complementaryColor;
 }
