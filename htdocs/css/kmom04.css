@@ -5261,16 +5261,25 @@ ul {
   * Images
   */
 @media screen and (max-width: 680px) {
+  .color-image.push-left {
+    margin-right: 0;
+  }
+  .color-image.margin-left {
+    margin-left: 0;
+  }
   .me-image,
-  .about-image {
+  .about-image,
+  .color-image {
     margin-inline-start: 0;
     margin-inline-end: 0;
     width: 100%;
   }
   .me-image img,
   .about-image img,
+  .color-image img,
   .me-image figcaption,
-  .about-image figcaption {
+  .about-image figcaption,
+  .color-image figcaption {
     width: 60%;
     margin-left: 20%;
   }
@@ -5278,8 +5287,10 @@ ul {
 @media screen and (max-width: 530px) {
   .me-image img,
   .about-image img,
+  .color-image img,
   .me-image figcaption,
-  .about-image figcaption {
+  .about-image figcaption,
+  .color-image figcaption {
     width: 80%;
     margin-left: 10%;
   }
@@ -5287,8 +5298,10 @@ ul {
 @media screen and (max-width: 375px) {
   .me-image img,
   .about-image img,
+  .color-image img,
   .me-image figcaption,
-  .about-image figcaption {
+  .about-image figcaption,
+  .color-image figcaption {
     width: 100%;
     margin-left: 0;
   }
