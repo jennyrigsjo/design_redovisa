@@ -1,0 +1,233 @@
+/*!
+ * Colorful stylesheet for kmom04.
+ *
+ * This stylesheet is for the course 'design' and kmom04. It has a triadic color
+ * scheme, some decorative styling and contains s few custom fonts.
+ */
+
+
+
+ /**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+
+
+
+/**
+ * Base styles to affect HTML elements on a general scale.
+ */
+@import "base/kmom04/base04.less";
+
+
+
+/**
+ * Layout styles for general structure of header, navbar, main, footer
+ * and other regions of the page, including route specific styles.
+ */
+@import "layout/kmom04/layout04.less";
+
+
+
+/**
+ * Internal, self-contained modules, saved in the directory 'module/'.
+ */
+@import "module/kmom04/module04.less";
+
+
+
+/**
+ * Responsive base styles
+ */
+@import "base/kmom04/responsive04.less";
+
+
+
+/**
+ * Responsive layout styles
+ */
+@import "layout/kmom04/responsive04.less";
+
+
+
+/**
+ * Responsive menu
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+/**
+ * Styles to highlight regions in the layout, useful for styling purposes.
+ * Add '?regions' to the current URI to see the layout of each region.
+ */
+@import "layout/regions.less";
+
+
+
+/**
+ * This section contains 'override styles', i.e. style rules needed to override/
+ * make exceptions to other style rules set higher up.
+ */
+ .rm-desktop li:hover>ul {
+    background-color: @bodyBgColor;
+}
+
+h1 {
+    margin-bottom: 23px;
+}
+
+/* Colorful styles/settings */
+
+@bodyBgColor: #FFFFFF; //white
+@textColor: #333; //dark grey
+@triadicColor1: #915C83; //purple
+@triadicColor2: #5C6B34; //green
+@triadicColor2Transparent: rgba(92, 107, 52, 0.2); //transparent shade of @triadicColor2 (green)
+@triadicColor3: #345C6B; //blue
+
+@logoFont: 'Unique';
+@fontFamilyHeadings: 'Quicksand';
+@fontFamilyBody: @fontFamilyHelveticaNeue;
+
+@font-face {
+    font-family: 'Unique';
+    src: url('fonts/unique/Unique.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/quicksand/Quicksand-Regular.otf');
+}
+
+blockquote {
+   border-left: 2px solid @triadicColor2;
+}
+
+code {
+    background-color: @triadicColor2Transparent;
+}
+
+img {
+    filter: drop-shadow(4px 4px 2px rgba(92, 107, 52, 0.5)); //semi-transparent shade of @triadicColor2 (green)
+}
+
+/* Header logo */
+
+.site-logo-text a {
+    color: @triadicColor1;
+    text-shadow: 4px 4px 4px rgba(145, 92, 131, 0.5);
+}
+
+.site-logo-text-icon img {
+    filter: hue-rotate(210deg);
+}
+
+/* Header navbar */
+
+.rm-desktop li a {
+    color: @triadicColor3;
+    font-family: @fontFamilyCalibri;
+}
+
+.rm-desktop li:hover a {
+    color: @triadicColor1;
+}
+
+.rm-desktop li:hover > ul {
+    border: 1px solid @triadicColor2;
+    background-color: #dee1d6;
+}
+
+.rm-desktop li:hover > ul li {
+    box-shadow: 0 0 1px @triadicColor2;
+}
+
+/* Flash image */
+
+.inner-wrap-flash {
+    padding: 5px 0;
+    border-top: 1px solid @textColor;
+    border-bottom: 1px solid @textColor;
+}
+
+/* Main tables of content */
+
+.block.toc {
+    border: 1px solid @triadicColor3;
+    box-shadow: 4px 4px 4px rgba(92, 107, 52, 0.5); //semi-transparent shade of @triadicColor2 (green)
+}
+
+.toc h4 {
+    background-color: @triadicColor1;
+    color: @bodyBgColor;
+}
+
+.toc h4,
+.toc li a {
+    border-bottom: 1px solid @triadicColor3;
+}
+
+.toc:last-child {
+    border-bottom: none;
+}
+
+.toc li:hover,
+.toc li.selected {
+    background-color: @triadicColor3;
+}
+
+.toc li:hover > a,
+.toc li.selected > a {
+    color: @bodyBgColor;
+}
+
+/* Sidebars */
+
+.region-sidebar-right .block {
+    background-color: @triadicColor2Transparent;
+}
+
+.region-sidebar-right h4 {
+    border-bottom: 1px solid transparent;
+}
+
+/* Author byline */
+
+.author-byline {
+    border-top: 1px solid @triadicColor2;
+    border-bottom: 1px solid @triadicColor2;
+    background-color: @triadicColor2Transparent;
+}
+
+/* Footer */
+
+.region-footer {
+    border-top: 2px solid @triadicColor1;
+    background-color: @triadicColor3;
+}
