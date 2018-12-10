@@ -1,9 +1,9 @@
 /*!
- * Minimalistic stylesheet for kmom04.
+ * Dark stylesheet for kmom04.
  *
- * This stylesheet is for the course 'design' and kmom04. It has a monochromatic
- * (black and white) color scheme, simple styling and contains only
- * sans-serif fonts.
+ * This stylesheet is for the course 'design' and kmom04. It has a dark background
+ * and lighter-colored text, which makes it gentler on the eyes and suitable for use
+ * at night and in other situations with low lighting.
  */
 
 
@@ -95,7 +95,8 @@
  * This section contains 'override styles', i.e. style rules needed to override/
  * make exceptions to other style rules set higher up.
  */
- .rm-desktop li:hover>ul {
+
+.rm-desktop li:hover>ul {
     background-color: @bodyBgColor;
 }
 
@@ -103,37 +104,47 @@ h1 {
     margin-bottom: 23px;
 }
 
-/* Minimalistic styles/settings */
 
-@bodyBgColor: #fdfdfd; //"off-white"
-@textColor: #151112; //very dark grey, same as flash image
-@complementaryColor: #aeaeae; // medium grey
 
-@logoFont: 'Moon';
-@fontFamilyHeadings: @fontFamilyCalibri;
+/**
+ * Theme-specific styles
+ */
+
+/* Colors and fonts */
+
+@bodyBgColor: #000000; //Black
+@textColor: #f5f5f5; //"White smoke"
+@complementaryColor: #9400d3; //"Dark violet"
+@complementaryColor2: #342434; //"Hunter green" (but looks purple brown-ish)
+
+@fontFamilyHeadings: 'Kanit', @fontFamilyGaramond;
 @fontFamilyBody: @fontFamilyHelveticaNeue;
 
 @font-face {
-    font-family: 'Moon';
-    src: url('fonts/moon/Moon2.0-Regular.otf');
+    font-family: 'Kanit';
+    src: url('fonts/kanit/Kanit-Thin.ttf');
 }
 
-.site-logo-text-icon img,
-.region-flash {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+/* Base elements */
+
+code {
+    background-color: @complementaryColor2;
+    border: none;
 }
 
-.site-logo-text a {
-    color: @textColor;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-shadow: none;
+/* Icons */
+
+.icon {
+    color: @complementaryColor2;
 }
+
+/* Header navbar */
 
 .region-header-col-2 a {
-    font-family: @fontFamilyCalibri;
+    font-family: 'Kanit';
 }
+
+/* Main links */
 
 .outer-wrap-main p > a {
     color: #0000ff; /* Blue */
@@ -143,10 +154,28 @@ h1 {
     color: #9f00c5; /* Purple */
 }
 
+/* Sidebars */
+
 .region-sidebar-right .block {
     background-color: transparent;
 }
 
-.region-sidebar-right h4 {
-    border-bottom: 1px solid @complementaryColor;
+/* Footer */
+
+.region-footer {
+    border-top: 2px solid @complementaryColor;
+    background-color: @complementaryColor2;
+    color: @textColor;
+}
+
+.region-footer h4 {
+    border-color: @textColor;
+}
+
+.region-footer a {
+    color: @textColor;
+}
+
+.footer-column-wrapper {
+    border-bottom: 1px solid @textColor;
 }

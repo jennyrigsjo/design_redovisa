@@ -4974,7 +4974,7 @@ ul {
 .site-logo-text a {
   display: flex;
   justify-content: center;
-  font-family: 'Zelda';
+  font-family: 'Zelda', Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
   font-size: 3em;
   color: #e51a53;
   text-decoration: none;

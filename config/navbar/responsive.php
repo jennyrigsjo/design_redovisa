@@ -36,6 +36,11 @@ return [
                         "url" => "redovisning/kmom03",
                         "title" => "Redovisning för kmom03",
                     ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04",
+                    ],
                 ],
             ],
         ],
@@ -48,6 +53,25 @@ return [
             "text" => "Styleväljare",
             "url" => "style",
             "title" => "Välj stylesheet",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Colorful",
+                        "url" => "$currentPage?style=04_colorful",
+                        "title" => "Colorful stylesheet",
+                    ],
+                    [
+                        "text" => "Dark",
+                        "url" => "$currentPage?style=04_dark",
+                        "title" => "Dark stylesheet",
+                    ],
+                    [
+                        "text" => "Minimal",
+                        "url" => "$currentPage?style=04_minimalistic",
+                        "title" => "Minimalistic stylesheet",
+                    ],
+                ],
+            ],
         ],
         [
             "text" => "Verktyg",
