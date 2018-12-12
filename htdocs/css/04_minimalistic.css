@@ -5022,14 +5022,14 @@ ul {
 }
 /* Main links */
 .outer-wrap-main p > a {
+  color: #0000ff;
+  /* Blue */
   text-decoration: none;
-  color: #000080;
-  /* Navy */
 }
 .outer-wrap-main p > a:hover {
+  color: #9f00c5;
+  /* Purple */
   text-decoration: underline;
-  color: #8B008B;
-  /* DarkMagenta */
 }
 /* Main tables of content */
 .block.toc {
@@ -5640,15 +5640,6 @@ h1 {
 /* Header navbar */
 .region-header-col-2 a {
   font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-/* Main links */
-.outer-wrap-main p > a {
-  color: #0000ff;
-  /* Blue */
-}
-.outer-wrap-main p > a:hover {
-  color: #9f00c5;
-  /* Purple */
 }
 /* Sidebars */
 .region-sidebar-right .block {

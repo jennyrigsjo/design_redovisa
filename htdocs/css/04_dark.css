@@ -4406,7 +4406,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Kanit', Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: 'Neogrey', Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5022,14 +5022,14 @@ ul {
 }
 /* Main links */
 .outer-wrap-main p > a {
+  color: #0000ff;
+  /* Blue */
   text-decoration: none;
-  color: #000080;
-  /* Navy */
 }
 .outer-wrap-main p > a:hover {
+  color: #9f00c5;
+  /* Purple */
   text-decoration: underline;
-  color: #8B008B;
-  /* DarkMagenta */
 }
 /* Main tables of content */
 .block.toc {
@@ -5624,6 +5624,18 @@ h1 {
   font-family: 'Kanit';
   src: url('fonts/kanit/Kanit-Thin.ttf');
 }
+@font-face {
+  font-family: 'Orbitron';
+  src: url('fonts/orbitron/orbitron-light-webfont.ttf');
+}
+@font-face {
+  font-family: 'Neo-Latina';
+  src: url('fonts/neo-latina/neo-latina-demo-FFP.ttf');
+}
+@font-face {
+  font-family: 'Neogrey';
+  src: url('fonts/neogrey/NeogreyMedium.otf');
+}
 /* Base elements */
 code {
   background-color: #342434;
@@ -5636,15 +5648,6 @@ code {
 /* Header navbar */
 .region-header-col-2 a {
   font-family: 'Kanit';
-}
-/* Main links */
-.outer-wrap-main p > a {
-  color: #0000ff;
-  /* Blue */
-}
-.outer-wrap-main p > a:hover {
-  color: #9f00c5;
-  /* Purple */
 }
 /* Sidebars */
 .region-sidebar-right .block {
