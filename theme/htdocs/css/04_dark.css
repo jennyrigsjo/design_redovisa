@@ -5621,18 +5621,6 @@ h1 {
  */
 /* Colors and fonts */
 @font-face {
-  font-family: 'Kanit';
-  src: url('fonts/kanit/Kanit-Thin.ttf');
-}
-@font-face {
-  font-family: 'Orbitron';
-  src: url('fonts/orbitron/orbitron-light-webfont.ttf');
-}
-@font-face {
-  font-family: 'Neo-Latina';
-  src: url('fonts/neo-latina/neo-latina-demo-FFP.ttf');
-}
-@font-face {
   font-family: 'Neogrey';
   src: url('fonts/neogrey/NeogreyMedium.otf');
 }
