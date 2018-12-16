@@ -4928,9 +4928,14 @@ ul {
 .color-image.margin-left {
   margin-left: 24px;
 }
+.pagespeed-image {
+  width: 50%;
+  margin: 0 auto;
+}
 .me-image img,
 .about-image img,
-.color-image img {
+.color-image img,
+.pagespeed-image img {
   width: 100%;
 }
 /* Footer */
@@ -5269,7 +5274,8 @@ ul {
   }
   .me-image,
   .about-image,
-  .color-image {
+  .color-image,
+  .pagespeed-image {
     margin-inline-start: 0;
     margin-inline-end: 0;
     width: 100%;
@@ -5277,9 +5283,11 @@ ul {
   .me-image img,
   .about-image img,
   .color-image img,
+  .pagespeed-image img,
   .me-image figcaption,
   .about-image figcaption,
-  .color-image figcaption {
+  .color-image figcaption,
+  .pagespeed-image figcaption {
     width: 60%;
     margin-left: 20%;
   }
@@ -5288,9 +5296,11 @@ ul {
   .me-image img,
   .about-image img,
   .color-image img,
+  .pagespeed-image img,
   .me-image figcaption,
   .about-image figcaption,
-  .color-image figcaption {
+  .color-image figcaption,
+  .pagespeed-image figcaption {
     width: 80%;
     margin-left: 10%;
   }
@@ -5299,9 +5309,11 @@ ul {
   .me-image img,
   .about-image img,
   .color-image img,
+  .pagespeed-image img,
   .me-image figcaption,
   .about-image figcaption,
-  .color-image figcaption {
+  .color-image figcaption,
+  .pagespeed-image figcaption {
     width: 100%;
     margin-left: 0;
   }
