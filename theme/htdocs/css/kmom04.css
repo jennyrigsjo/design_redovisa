@@ -5562,24 +5562,19 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Media queries to switch between desktop and mobile menu
+ * Style for responsive menu
  */
 /**
-  * Navbar
+  * Example on media queries
   */
 @media screen and (max-width: 680px) {
-  .rm-small {
-    display: block;
-  }
   .rm-desktop {
     display: none;
-    /* Hide desktop menu */
   }
 }
-@media screen and (min-width: 681px) {
-  .rm-navbar-max {
+@media screen and (min-width: 679px) {
+  .rm-max .rm-small {
     display: none;
-    /* Hide mobile menu */
   }
 }
 /**

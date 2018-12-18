@@ -28,4 +28,4 @@ Om kursen
 
 Med andra ord, en superintressant kurs, helt enkelt!
 
-[FIGURE src=http://www.spinz.se/blog/www.spinz.se/blog/wp-content/uploads/utvecklingsprocessen46.jpg class="about-image left" caption="Så här kan verkligheten se ut, enligt vissa som jobbar med användbarhet."]
+[FIGURE src=https://dusemedia.se/wp-content/uploads/2018/02/mal-i-digitla-projekt.png class="about-image left" caption="Så här kan verkligheten se ut, enligt vissa som jobbar med användbarhet."]

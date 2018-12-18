@@ -62,17 +62,17 @@ return [
                 "items" => [
                     [
                         "text" => "Colorful",
-                        "url" => "$currentPage?style=04_colorful",
+                        "url" => "$currentPage?style=05_colorful",
                         "title" => "Colorful stylesheet",
                     ],
                     [
                         "text" => "Dark",
-                        "url" => "$currentPage?style=04_dark",
+                        "url" => "$currentPage?style=05_dark",
                         "title" => "Dark stylesheet",
                     ],
                     [
                         "text" => "Minimal",
-                        "url" => "$currentPage?style=04_minimalistic",
+                        "url" => "$currentPage?style=05_minimalistic",
                         "title" => "Minimalistic stylesheet",
                     ],
                 ],
