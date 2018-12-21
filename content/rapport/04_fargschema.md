@@ -40,11 +40,11 @@ Resultat
 
 [FIGURE src="image/color-analysis/fb2.png" class="color-image right" caption="FitnessBlenders träningsvideor"]
 
-[FIGURE src="image/color-analysis/fb.png" class="color-image right push-left" caption="FitnessBlenders startsida"]
+[FIGURE src="image/color-analysis/fb.png" class="color-image" caption="FitnessBlenders startsida"]
 
 #### Färgpalett
 
-[FIGURE src="image/color-analysis/fb_palette.png" class="color-image right margin-left" caption="Färgpalett för FitnessBlender enligt analysverktyget Colorfy"]
+[FIGURE src="image/color-analysis/fb_palette.png" class="color-image right" caption="Färgpalett för FitnessBlender enligt analysverktyget Colorfy"]
 
 FitnessBlenders färgpalett domineras av kalla, dämpade färger. Enligt färganalysverktyget Colorfy är de flesta färgerna i paletten nyanser av blått, grått och grönt, med visst inslag av nyanser av rött, orange och rosa. När man kikar runt på webbplatsen märker man att de varmare färgerna i paletten (rött, orange och rosa) oftast förekommer som en del av de bilder och fotografier som läggs upp på sajten, medan de kallare färgerna (vit, svart, grå och blå) utan undantag används som bakgrunds- eller "inramningsfärg" för webbplatsens olika element (header, footer, body, logotyp, menyer, borders etc.). Startsidan domineras av en bild vars bakgrundsfärg är en s.k. *gradient* som gradvis skiftar från blå till turkos från vänster till höger. Färgerna blå och turkos återkommer/dominerar i många av de fotografier som finns på sajten, se t.ex. sidorna [Workout Programs](https://www.fitnessblender.com/workouts-programs), [Healthy Living](https://www.fitnessblender.com/healthy-living) och [About-sidan](https://www.fitnessblender.com/page/about-fitness-blender). Överlag verkar webbplatsen tillämpa ett sparsmakat, analogt/monokromatiskt färgschema, i vilket färgen blå används som accentfärg för att rama in och/eller skapa kontrast mellan olika element och delar av sidan.
 
@@ -60,11 +60,11 @@ Ja, jag tycker det. Designen är stilren och diskret vilket gör att man som bes
 
 [FIGURE src="image/color-analysis/tvt2.png" class="color-image right" caption="Artikel om en s.k. 'trope'"]
 
-[FIGURE src="image/color-analysis/tvt.png" class="color-image right push-left" caption="TV Tropes startsida"]
+[FIGURE src="image/color-analysis/tvt.png" class="color-image" caption="TV Tropes startsida"]
 
 #### Färgpalett
 
-[FIGURE src="image/color-analysis/tvt_palette.png" class="color-image right margin-left" caption="Färgpalett för TV Tropes enligt analysverktyget Colorfy"]
+[FIGURE src="image/color-analysis/tvt_palette.png" class="color-image right" caption="Färgpalett för TV Tropes enligt analysverktyget Colorfy"]
 
 Liksom FitnessBlender innehåller TV Tropes färgpalett flera nyanser av grått och blått, med endast ett fåtal varmare färger (gult, rött, orange och klarlila) här och där. De flesta av färgerna är mörka i tonen, men paletten innehåller även ett mindre antal ljusa pastellfärger. När man tittar på hur färgerna används på webbplatsen ser man att bakgrunden för det mesta är vit eller ljusgrå, medan de mörkare färgerna (främst mörkt gråblå) i paletten används för menyer, ikoner, länkar och knappar. Startsidan domineras av en logotyp med mörkt grå-blå bakgrund och ordet "tv tropes" i vit text. På ena t:et i texten hänger en iögonfallande gul lampskärm, vilket är en humoristisk anspelning på det engelska uttrycket "[to hang a lampshade on something](https://tvtropes.org/pmwiki/pmwiki.php/Main/LampshadeHanging)", att påpeka det absurda eller osannolika i något. Med tanke på att det är just detta som webbplatsens medlemmar bland annat ägnar sig när de diskuterar film, tv och litteratur tycker jag att både loggans utformning och den gula färgen är passande. Överlag verkar webbplatsen ha ett monokromt färgschema där basfärgen är mörkt gråblå och färgerna gul och ibland röd används som accentfärger.
 
@@ -81,11 +81,11 @@ Färgen mörkt gråblå är kanske lite väl sober som temafärg för en webbpla
 
 [FIGURE src="image/color-analysis/vego2.png" class="color-image right" caption="Vegomagasinets meny"]
 
-[FIGURE src="image/color-analysis/vego.png" class="color-image right push-left" caption="Vegomagasinets startsida"]
+[FIGURE src="image/color-analysis/vego.png" class="color-image" caption="Vegomagasinets startsida"]
 
 #### Färgpalett
 
-[FIGURE src="image/color-analysis/vego_palette.png" class="color-image right margin-left" caption="Färgpalett för Vegomagasinet enligt analysverktyget Color Combos"]
+[FIGURE src="image/color-analysis/vego_palette.png" class="color-image right" caption="Färgpalett för Vegomagasinet enligt analysverktyget Color Combos"]
 
 Till skillnad från FitnessBlender och TV Tropes har Vegomagasinet relativt få färger i sin färgpalett. Varje färg verkar dessutom stå i motsats till en eller flera andra färger i paletten, t.ex. rosa kontra grön och mörkgrå kontra vit. När man tittar på hur färgerna används på webbplatsen ser man att rosa främst används för logotypen, huvudmenyn och footern, medan grön används mer sparsamt till sidpaneler och vissa knappar. Mörkgrå används som bakgrundsfärg till dropdownmenyn medan vit används som bakgrundsfärg till bilder och text. Webbplatsen innehåller av förståeliga skäl även många bilder på mat; till och med body-elementets bakgrund pryds av en heltäckande bild på en vegetarisk rätt. Färgschemat som används verkar vara av "komplimentär" art, dvs. färger från mosatta sidor av färghjulet används för att skapa ett balanserat och tilltalande utseende. Rosa är helt klart webbplatsens basfärg då den används både till logotypen, huvudmenyn och footern, medan grön och mörkgrå används mer sparsamt till knappar och undermenyer och därmed skulle kunna sägas vara accentuerande färger.
 

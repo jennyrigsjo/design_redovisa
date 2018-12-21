@@ -106,6 +106,11 @@ return [
                     ],
                 ]
             ]
-        ]
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Dagens bild",
+        ],
     ],
 ];

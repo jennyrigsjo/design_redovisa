@@ -4387,6 +4387,15 @@ template {
  * Import the module @desinax/figure
  */
 /**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+/**
  * Base styles to affect HTML elements on a general scale.
  */
 /************************************!
@@ -4690,6 +4699,122 @@ hr::after {
   font-family: 'Zelda';
   src: url('fonts/zelda/ZELDARegular.otf');
 }
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
 /* Elements by letter */
 a {
   color: #333;
@@ -4833,6 +4958,9 @@ ul {
   margin-right: 0.52083333%;
   height: 168px;
 }
+.region-flash img {
+  display: none;
+}
 /* Flash message */
 .region-flash-message {
   flex: 0 0 auto;
@@ -4907,44 +5035,44 @@ ul {
   margin-bottom: 24px;
 }
 .author-byline img {
-  display: block;
-  width: 96px;
-  height: 96px;
-  margin-right: 12px;
+  width: 150px;
 }
 /* Main figures */
 .me-image {
   width: 300px;
-  margin-left: 24px;
-}
-.right {
-  float: right;
 }
 .about-image {
   width: 700px;
   max-width: 100%;
 }
-.left {
-  float: left;
-}
 .color-image {
   width: 48%;
 }
-.color-image.push-left {
-  margin-right: 4%;
-}
-.color-image.margin-left {
-  margin-left: 24px;
-}
 .pagespeed-image {
   width: 50%;
-  margin: 0 auto;
 }
 .me-image img,
 .about-image img,
 .color-image img,
 .pagespeed-image img {
   width: 100%;
+}
+/* Blog */
+article.blog {
+  min-height: 0;
+  margin-bottom: 48px;
+}
+.blog-list,
+.blog-list-item {
+  margin-bottom: 72px;
+}
+.blog-post figure,
+.blog-post figure.center,
+.blog-post .portrait {
+  margin-bottom: 48px;
+}
+.portrait {
+  overflow: auto;
 }
 /* Footer */
 .region-footer,
@@ -5040,18 +5168,23 @@ ul {
   text-decoration: underline;
 }
 /* Main tables of content */
-.block.toc {
+.block.toc,
+.block.blog-toc {
   border: 1px solid #333;
 }
 .toc,
-.toc h4 {
+.blog-toc,
+.toc h4,
+.blog-toc h4 {
   padding-inline-start: 0;
 }
 .toc,
+.blog-toc,
 .toc li {
   text-align: center;
 }
-.toc h4 {
+.toc h4,
+.blog-toc h4 {
   background-color: #333;
   color: #fff;
 }
@@ -5060,6 +5193,7 @@ ul {
   text-decoration: none;
 }
 .toc h4,
+.blog-toc h4,
 .toc li a {
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -5101,6 +5235,23 @@ ul {
 .region-sidebar-right .block {
   background-color: rgba(229, 26, 83, 0.1);
 }
+/* Blog */
+.blog-list-item .meta-header,
+.blog-post .meta-header {
+  font-style: italic;
+}
+.sidebar-right-header,
+.sidebar-right-header-text {
+  text-align: center;
+}
+figure.frame {
+  border: solid 1px #333;
+}
+figure.frame img {
+  outline: solid 1px #efefef;
+  outline-offset: 10px;
+  filter: none;
+}
 /* Stylechooser */
 .stylechooser fieldset {
   margin-inline-start: 0px;
@@ -5134,7 +5285,6 @@ ul {
 .author-byline figure,
 .author-byline p {
   padding-top: 24px;
-  padding-bottom: 24px;
 }
 .author-byline figcaption {
   font-size: 0.9em;
@@ -5488,17 +5638,20 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   .toc .section-header {
     margin: 0;
   }
+  .blog-list,
+  .blog-list-item {
+    margin-bottom: 48px;
+  }
+  .blog-post figure,
+  .blog-post figure.center,
+  .blog-post .portrait {
+    margin-bottom: 24px;
+  }
 }
 /**
   * Images
   */
 @media screen and (max-width: 680px) {
-  .color-image.push-left {
-    margin-right: 0;
-  }
-  .color-image.margin-left {
-    margin-left: 0;
-  }
   .me-image,
   .about-image,
   .color-image,

@@ -42,6 +42,11 @@ return [
             "text" => "Rapporter",
             "url" => "rapport",
             "title" => "Rapporter",
-        ]
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Dagens bild",
+        ],
     ],
 ];

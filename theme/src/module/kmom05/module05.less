@@ -83,21 +83,26 @@
 
 /* Main tables of content */
 
-.block.toc {
+.block.toc,
+.block.blog-toc {
     border: 1px solid @textColor;
 }
 
 .toc,
-.toc h4 {
+.blog-toc,
+.toc h4,
+.blog-toc h4 {
     padding-inline-start: 0;
 }
 
 .toc,
+.blog-toc,
 .toc li {
     text-align: center;
 }
 
-.toc h4 {
+.toc h4,
+.blog-toc h4 {
     background-color: @textColor;
     color: @bodyBgColor;
 }
@@ -108,6 +113,7 @@
 }
 
 .toc h4,
+.blog-toc h4,
 .toc li a {
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -165,11 +171,29 @@
     background-color: rgba(229,26,83, 0.1);
 }
 
-// .region-sidebar-right h4 {
-//     border-color: @complementaryColor;
-// }
 
 
+/* Blog */
+
+.blog-list-item .meta-header,
+.blog-post .meta-header {
+    font-style: italic;
+}
+
+.sidebar-right-header,
+.sidebar-right-header-text {
+    text-align: center;
+}
+
+figure.frame {
+    border: solid 1px @textColor;
+}
+
+figure.frame img {
+    outline: solid 1px #efefef;
+    outline-offset: 10px;
+    filter: none;
+}
 
 /* Stylechooser */
 
@@ -210,7 +234,6 @@
 .author-byline figure,
 .author-byline p {
     padding-top: @magicNumber;
-    padding-bottom: @magicNumber;
 }
 
 .author-byline figcaption {

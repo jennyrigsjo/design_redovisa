@@ -24,19 +24,19 @@ Resultat
 
 <h3><a href="https://www.fitnessblender.com/">FitnessBlender</a></h3>
 
-[FIGURE src="image/color-analysis/fb.png" class="pagespeed-image" caption="FitnessBlenders startsida"]
+[FIGURE src="image/color-analysis/fb.png" class="pagespeed-image center" caption="FitnessBlenders startsida"]
 
 FitnessBlender är den webbplats som överlag klarar sig bäst i mätningarna, både i mobil- och desktopläge. Mobilversionen av webbplatsen skulle kunna göras bättre, framför allt genom att ta bort resurser som blockerar sidans rendering, skicka bilder i modernare format samt städa upp i CSS:en och rensa bort onödiga stilregler.
 
 <h3><a href="https://tvtropes.org/">TV Tropes</a></h3>
 
-[FIGURE src="image/color-analysis/tvt.png" class="pagespeed-image" caption="TV Tropes startsida"]
+[FIGURE src="image/color-analysis/tvt.png" class="pagespeed-image center" caption="TV Tropes startsida"]
 
 Desktopversionen av TV Tropes klarar sig medelbra i mätningarna med Google PageSpeed medan mobilversionen klarar sig sämre. Det som framför allt skulle kunna snabba upp inläsningen av webbplatsen är att ta bort resurser som blockeringen renderingen av sidorna samt minska svarstiden från servern ("tiden till första byte"). Att skicka bilder i modernare bildformat, streamlina CSS:en och skjuta upp inläsningen av bilder som inte visas på skärmen skulle också hjälpa.
 
 <h3><a href="https://www.vegomagasinet.se/">Vegomagasinet</a></h3>
 
-[FIGURE src="image/color-analysis/vego.png" class="pagespeed-image" caption="Vegomagasinets startsida"]
+[FIGURE src="image/color-analysis/vego.png" class="pagespeed-image center" caption="Vegomagasinets startsida"]
 
 Enligt PageSpeed är Vegomagasinet ungefär lika snabb som TV Tropes både i desktop- och mobilläge, men den *känns* långsammare. När man besöker webbplatsen tar den lång tid på sig att ladda färdigt och när jag försöker utvärdera sidorna med PageSpeed får jag till en början ett felmeddelande som säger att "the page could not be reliably loaded". De förbättringsåtgärder som föreslås av PageSpeed gäller till största delen hanteringen av bilder och videoklipp på sajten, framför allt rekommenderas det att man använder videoformat istället för GIF för animationer, att man använder bilder av rätt storlek och att bilderna skickas i ett modernare format. Andra återkommande förbättringsförslag är att koda bilder effektivt, att skjuta upp inläsningen av bilder som inte visas på skärmen, att minska svarstiderna från servern (den s.k. "tiden till första byte") samt att skjuta upp CSS som inte används.
 

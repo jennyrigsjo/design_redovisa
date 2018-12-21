@@ -87,6 +87,17 @@
          margin: 0;
      }
 
+     .blog-list,
+     .blog-list-item {
+         margin-bottom: @magicNumber * 2;
+     }
+
+     .blog-post figure,
+     .blog-post figure.center,
+     .blog-post .portrait {
+         margin-bottom: @magicNumber * 1;
+     }
+
  }
 
 
@@ -96,14 +107,6 @@
   */
 
   @media screen and (max-width: @mobileBreakpoint) {
-
-      .color-image.push-left {
-          margin-right: 0;
-      }
-
-      .color-image.margin-left {
-          margin-left: 0;
-      }
 
       .me-image,
       .about-image,
@@ -141,6 +144,7 @@
           width: 80%;
           margin-left: 10%;
       }
+
   }
 
   @media screen and (max-width: 375px) {
