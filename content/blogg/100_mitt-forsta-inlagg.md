@@ -4,7 +4,7 @@ category:
     - vinter
     - natur
     - Branäs
-published: "2018-12-19"
+published: "2018-12-17"
 ---
 Vinter i Branäs
 ==================================

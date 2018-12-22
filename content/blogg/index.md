@@ -33,4 +33,4 @@ views:
 Dagens bild
 ===========================
 
-En blogg om bilder.
+En blogg om fotografering och bildredigering.
