@@ -6,7 +6,7 @@ Syftet med denna rapport är att utvärdera prestandan för tre webbplatser geno
 Urval
 -----------------------
 
-Jag har valt att utvärdera samma webbplatser som i föregående uppgift, (dvs. [FitnessBlender](https://www.fitnessblender.com/), [TV Tropes](https://tvtropes.org/) och [Vegomagasinet](https://www.vegomagasinet.se/)) eftersom jag tyckte att det kunde vara intressant att fördjupa sig i deras respektive design och uppbyggnad. Mer information om webbplatserna finns i <a href="http://www.student.bth.se/~anri16/dbwebb-kurser/design/me/redovisa/htdocs/rapport/laddningstid">rapporten för kmom04</a>.
+Jag har valt att utvärdera samma webbplatser som i föregående uppgift, (dvs. [FitnessBlender](https://www.fitnessblender.com/), [TV Tropes](https://tvtropes.org/) och [Vegomagasinet](https://www.vegomagasinet.se/)) eftersom jag tyckte att det kunde vara intressant att fördjupa sig i deras respektive design och uppbyggnad. Mer information om webbplatserna finns i <a href="http://www.student.bth.se/~anri16/dbwebb-kurser/design/me/redovisa/htdocs/rapport/fargschema">rapporten för kmom04</a>.
 
 Metod
 -----------------------
