@@ -61,18 +61,23 @@ return [
             "submenu" => [
                 "items" => [
                     [
+                        "text" => "Base",
+                        "url" => "$currentPage?style=kmom06",
+                        "title" => "Base stylesheet",
+                    ],
+                    [
                         "text" => "Colorful",
-                        "url" => "$currentPage?style=05_colorful",
+                        "url" => "$currentPage?style=06_colorful",
                         "title" => "Colorful stylesheet",
                     ],
                     [
                         "text" => "Dark",
-                        "url" => "$currentPage?style=05_dark",
+                        "url" => "$currentPage?style=06_dark",
                         "title" => "Dark stylesheet",
                     ],
                     [
                         "text" => "Minimal",
-                        "url" => "$currentPage?style=05_minimalistic",
+                        "url" => "$currentPage?style=06_minimalistic",
                         "title" => "Minimalistic stylesheet",
                     ],
                 ],
