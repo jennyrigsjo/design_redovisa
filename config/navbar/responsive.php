@@ -80,6 +80,11 @@ return [
                         "url" => "$currentPage?style=06_minimalistic",
                         "title" => "Minimalistic stylesheet",
                     ],
+                    [
+                        "text" => "Alice",
+                        "url" => "$currentPage?style=kmom06-designelement",
+                        "title" => "Alice in Wonderland-inspired stylesheet",
+                    ],
                 ],
             ],
         ],
@@ -112,6 +117,11 @@ return [
                     [
                         "text" => "Designprinciper",
                         "url" => "rapport/designprincip",
+                        "title" => "Rapport för kmom06",
+                    ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
                         "title" => "Rapport för kmom06",
                     ],
                 ]
