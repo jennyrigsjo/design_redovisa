@@ -37,7 +37,6 @@ Inverterade färger {#inverted}
 -----------------------------------
 
 <div class="portrait">
-<!-- <h2 id="inverted">Inverterade färger</h2> -->
 
 [FIGURE src="image/blog/butterfly.jpg?w=250&h=500&crop-to-fit&f=negate" class="figure right w33" caption="En klöverblomma får besök av en Amiralfjäril, inverterade färger."]
 
