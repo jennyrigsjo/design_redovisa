@@ -85,6 +85,11 @@ return [
                         "url" => "$currentPage?style=kmom06-designelement",
                         "title" => "Alice in Wonderland-inspired stylesheet",
                     ],
+                    [
+                        "text" => "Oriental",
+                        "url" => "$currentPage?style=kmom06-designprinciper",
+                        "title" => "Stylesheet with an oriental touch",
+                    ],
                 ],
             ],
         ],
@@ -120,8 +125,13 @@ return [
                         "title" => "Rapport för kmom06",
                     ],
                     [
-                        "text" => "Designelement",
+                        "text" => "Tema med designelement",
                         "url" => "rapport/designelement",
+                        "title" => "Rapport för kmom06",
+                    ],
+                    [
+                        "text" => "Tema med designprinciper",
+                        "url" => "rapport/designprinciper",
                         "title" => "Rapport för kmom06",
                     ],
                 ]
