@@ -5054,7 +5054,8 @@ ul {
   width: 700px;
   max-width: 100%;
 }
-.color-image {
+.color-image,
+.optimization-image {
   width: 48%;
 }
 .pagespeed-image {
