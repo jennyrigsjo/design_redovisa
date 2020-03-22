@@ -149,6 +149,11 @@ return [
                         "url" => "rapport/webbplatsdesign",
                         "title" => "Rapport för kmom07-10",
                     ],
+                    [
+                        "text" => "Design och webbplatser",
+                        "url" => "rapport/design-och-webbplatser",
+                        "title" => "Rapport för kmom07-10",
+                    ],
                 ]
             ]
         ],
