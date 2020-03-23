@@ -9,7 +9,7 @@ INNEHÅLL:
 4. [Metod](#metod)
 5. [Resultat](#resultat)
 6. [Analys och diskussion](#analys)
-7. [Sammanfattningsvis](#sammanfattning)
+7. [Avslutningsvis](#avslutningsvis)
 8. [Källor](#kallor)
 
 
@@ -18,7 +18,7 @@ Syfte {#syfte}
 
 Organisationen Valfrihet har bett mig göra en analys inom området design och webbplatser. Jag har valt att analysera bildoptimeringen på ett antal webbplatser samt i vilken utsträckning de följer s.k. "best practices" i detta avseende.
 
-**Bildoptimering** är ett brett begrepp som omfattar allt från att välja bilder som passar webbplatsens profil och budskap till att formatera bilderna på bästa sätt och att sökmotoroptimera dem. Hur väl en webbplats lyckas med bildoptimeringen påverkar bl.a. hur användarna upplever webbplatsen, dess prestanda och nedladdningstid samt hur högt webbplatsen rankas i sökresultat.
+**Bildoptimering** är ett brett begrepp som beroende på vem man frågar omfattar allt från att välja bilder som passar en webbplats innehåll och budskap (8Days, 2014) till att formatera bilderna på bästa sätt och att sökmotoroptimera dem (Khatkar, 2018). Hur väl en webbplats lyckas med bildoptimeringen påverkar bl.a. hur användarna upplever webbplatsen, dess prestanda och nedladdningstid samt hur högt webbplatsen rankas i sökresultat (ibid.).
 
 **Best practices** syftar i sammanhanget på vedertagna metoder, tekniker, riktlinjer och rekommendationer som av experter inom webbutveckling och design bedöms som det bästa sättet att uppnå bildoptimering. Det finns förstås många åsikter om vad som är best practice ifråga om bildoptimering, nästan lika många som det finns experter inom webbutveckling och webbdesign. Vissa best practices tenderar dock att förespråkas och lyftas fram oftare än andra och det är dessa, de "mest populära", best practices samt i vilken utsträckning de åtföljs som jag fokuserar på i denna analys.
 
@@ -348,10 +348,12 @@ Det är intressant att notera att webbplatserna i anaylsen har relativt enkla lo
 
 Tre av fyra företag i analysen får högre betyg av Pagespeed Insights för desktopversionen av webbplatsen än för den mobila varianten. Undantaget till detta är Pizzeria Venezia, vars webbplats får samma betyg (100 av 100) för både mobil och desktop. "Desktop first" verkar med andra ord vara den mest populära design- och utvecklingsstrategin, och det känns inte orimligt att anta att denna strategi även innefattar hur man ser på och jobbar med bildoptimering. Idag använder de flesta människor sina mobiltelefoner när de besöker webbplatser (Statista, 2020); trots detta kommer optimering av bilder (liksom optimering av webbplatserna i övrigt) för mobila enheter till synes i andra hand under utvecklingen av webbplatserna. Återigen kan man bara spekulera i vad detta beror på. En förklaring skulle kunna vara att pizzeriornas kunder för det mesta använder stationära datorer och/eller laptops för att besöka webbplatserna, och att bildoptimering för mobila enheter således inte är högprioriterad. Detta är dock ren spekulation från min sida och inget jag har belägg för. En annan och kanske mer trolig förklaring är att det saknas medvetenhet om bildoptimeringens betydelse för den mobila användarupplevelsen, möjligtvis i kombination med bristande kännedom om vilka verktyg som behövs och finns för detta ändamål.
 
-Sammanfattningsvis {#sammanfattning}
-------------------------------------
+Avslutningsvis {#avslutningsvis}
+--------------------------------
 
-Sammantaget kan man säga att webbplatserna i analysen ibland följer best practice inom bildoptimering, ibland inte. Bäst är webbplatserna på att hålla sig till rekommenderade filformat samt att välja meningsfulla bilder, sämst är de på att namnge bildfilerna och att skriva relevant alt-text. Huruvida resultaten kan generaliseras till att gälla samtliga webbplatser inom restaurangbranschen kan säkert diskuteras. I en uppföljande analys skulle man  kunna titta närmare på om bildoptimeringen skiljer sig mellan å ena sidan webbplatser som endast tillhandahåller information om en restaurang (såsom meny och öppettider) och å andra sidan webbplatser genom vilka man även kan göra bokningar och beställa mat. Man skulle även kunna genomföra samma analys på webbplatser inom flera olika kategorier/branscher, för att på så sätt få en bredare uppfattning om hur arbetet med bildoptimering ser ut och prioriteras inom webbutveckling och design.
+Sammantaget kan man säga att webbplatserna i analysen ibland följer best practice inom bildoptimering, ibland inte. Bäst är webbplatserna på att hålla sig till rekommenderade filformat samt att välja meningsfulla bilder, sämst är de på att namnge bildfilerna och att skriva relevant alt-text. Det är svårt att dra några definitiva slutsatser om varför webbplatserna inte alltid håller sig till vedertagna riktlinjer och rekommendationer, en trolig förklaring är dock att det saknas kunskap och medvetenhet om bildoptimeringens betydelse, t.ex. vad gäller prestanda och sökmotoroptimering.
+
+Huruvida resultaten kan generaliseras till att gälla samtliga webbplatser inom restaurangbranschen är tveksamt då endast fyra webbplatser har analyserats. I en uppföljande analys skulle man kunna titta närmare på om bildoptimeringen skiljer sig mellan å ena sidan webbplatser som endast tillhandahåller information om en restaurang (såsom meny och öppettider) och å andra sidan webbplatser genom vilka man även kan göra bokningar och beställa mat. Man skulle även kunna genomföra samma analys på webbplatser inom flera olika kategorier/branscher, för att på så sätt få en bredare uppfattning om hur arbetet med bildoptimering ser ut och prioriteras inom webbutveckling i allmänhet.
 
 
 Källor {#kallor}
