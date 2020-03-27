@@ -88,6 +88,8 @@ Resultat {#resultat}
 
 #####Bild 1
 
+[Länk till bild](http://media.alingsaspizzeria.se/2016/08/pizzeria_logo.png)
+
 **Filtyp**: PNG
 
 **Storlek**: 2,1 KB
@@ -102,6 +104,8 @@ Resultat {#resultat}
 
 #####Bild 2
 
+[Länk till bild](http://media.alingsaspizzeria.se/2017/01/tetsarosa.jpg)
+
 **Filtyp**: JPG
 
 **Storlek**: 32,7 KB
@@ -115,6 +119,8 @@ Resultat {#resultat}
 **Övrig kommentar**: --
 
 #####Bild 3
+
+[Länk till bild](http://media.alingsaspizzeria.se/2017/01/hamburgare.jpg)
 
 **Filtyp**: JPG
 
@@ -153,6 +159,8 @@ Resultat {#resultat}
 
 #####Bild 1
 
+[Länk till bild](http://pizzeriavenezia.se/images/k9.gif)
+
 **Filtyp**: GIF
 
 **Storlek**: 367 KB
@@ -167,6 +175,8 @@ Resultat {#resultat}
 
 #####Bild 2
 
+[Länk till bild](http://pizzeriavenezia.se/images/K1.png)
+
 **Filtyp**: PNG
 
 **Storlek**: 764 KB
@@ -180,6 +190,8 @@ Resultat {#resultat}
 **Övrig kommentar**: --
 
 #####Bild 3
+
+[Länk till bild](http://pizzeriavenezia.se/images/m5.jpg)
 
 **Filtyp**: JPG
 
@@ -215,6 +227,8 @@ Resultat {#resultat}
 
 #####Bild 1
 
+[Länk till bild](http://www.pizzeriakvarnen.se/files/logo.png)
+
 **Filtyp**: PNG
 
 **Storlek**: 11,5 KB
@@ -229,6 +243,8 @@ Resultat {#resultat}
 
 #####Bild 2
 
+[Länk till bild](http://www.pizzeriakvarnen.se/files/side-pix03.jpg)
+
 **Filtyp**: JPG
 
 **Storlek**: 39,2 KB
@@ -242,6 +258,8 @@ Resultat {#resultat}
 **Övrig kommentar**: Bilden ligger som bakgrundbild i en <code>&lt;div&gt;</code> via css-egenskapen <code>background-image</code>.
 
 #####Bild 3
+
+[Länk till bild](http://www.pizzeriakvarnen.se/files/DSC03263-1024x576.jpg)
 
 **Filtyp**: JPG
 
@@ -278,6 +296,8 @@ Resultat {#resultat}
 
 #####Bild 1
 
+[Länk till bild](https://lafontanapizzeria.se/____impro/1/onewebmedia/La%20fontana%20ALINGS%C3%85S-1.png?etag=%221b30d-5a3ad325%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=300%2B118&extract=0%2B0%2B300%2B118)
+
 **Filtyp**: PNG
 
 **Storlek**: 21.4 KB
@@ -292,6 +312,8 @@ Resultat {#resultat}
 
 #####Bild 2
 
+[Länk till bild](https://lafontanapizzeria.se/____impro/1/onewebmedia/PIZZA%20ALINGS%C3%85S-22.png?etag=W%2F%226b8a3-5a3ad42e%22&sourceContentType=image%2Fpng)
+
 **Filtyp**: PNG
 
 **Storlek**: 430 KB
@@ -305,6 +327,8 @@ Resultat {#resultat}
 **Övrig kommentar**: Bildelementet är satt som bakgrundsbild i en <code>&lt;div&gt;</code> via css-egenskapen <code>background-image</code>.
 
 #####Bild 3
+
+[Länk till bild](https://lafontanapizzeria.se/____impro/1/onewebmedia/aft.jpg?etag=W%2F%2221cc2-5a3ad8db%22&sourceContentType=image%2Fjpeg&quality=85)
 
 **Filtyp**: JPG
 
